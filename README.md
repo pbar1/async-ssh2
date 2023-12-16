@@ -1,9 +1,9 @@
 # async-ssh2-rs
 
-[![Build Status](https://travis-ci.com/spebern/async-ssh2.svg?branch=master)](https://travis-ci.com/spebern/async-ssh2)
-[![Build Status](https://github.com/spebern/async-ssh2/workflows/linux/badge.svg)](https://github.com/spebern/async-ssh2/actions?workflow=linux)
-[![Build Status](https://github.com/spebern/async-ssh2/workflows/Windows/badge.svg)](https://github.com/spebern/async-ssh2/actions?workflow=Windows)
-[![Build Status](https://github.com/spebern/async-ssh2/workflows/macOS/badge.svg)](https://github.com/spebern/async-ssh2/actions?workflow=macOS)
+[![Build Status](https://travis-ci.com/pbar1/async-ssh2.svg?branch=master)](https://travis-ci.com/pbar1/async-ssh2)
+[![Build Status](https://github.com/pbar1/async-ssh2/workflows/linux/badge.svg)](https://github.com/pbar1/async-ssh2/actions?workflow=linux)
+[![Build Status](https://github.com/pbar1/async-ssh2/workflows/Windows/badge.svg)](https://github.com/pbar1/async-ssh2/actions?workflow=Windows)
+[![Build Status](https://github.com/pbar1/async-ssh2/workflows/macOS/badge.svg)](https://github.com/pbar1/async-ssh2/actions?workflow=macOS)
 
 [Documentation](https://docs.rs/async-ssh2)
 
@@ -14,7 +14,7 @@ Async wrapper over [ssh2-rs](https://github.com/alexcrichton/ssh2-rs).
 ```toml
 # Cargo.toml
 [dependencies]
-async-ssh2 = { version = "0.1", git = "https://github.com/spebern/async-ssh2.git" }
+async-ssh2 = { git = "https://github.com/pbar1/async-ssh2.git", rev = "main" }
 ```
 
 ## Building on OSX 10.10+
