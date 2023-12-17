@@ -15,8 +15,8 @@ edition = "2021"
 vendored-openssl = ["ssh2/vendored-openssl"]
 
 [dependencies]
-ssh2 = "0.9.4"
-libssh2-sys = "^0.3.0" # Must match version depended on by `ssh2`
+ssh2 = { git = "https://github.com/alexcrichton/ssh2-rs.git", rev = "2d9f4ee9aa6b9691c738ef9bde11b392c7caacc0" }
+libssh2-sys = { git = "https://github.com/alexcrichton/ssh2-rs.git", rev = "2d9f4ee9aa6b9691c738ef9bde11b392c7caacc0" } # Must match version depended on by `ssh2`
 async-io = "2"
 futures = "0.3"
 futures-util = "0.3"
